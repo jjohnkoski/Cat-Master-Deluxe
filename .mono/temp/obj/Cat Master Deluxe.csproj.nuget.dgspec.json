@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\USERS\\JJPEN\\REPOS\\GAMES\\CAT MASTER DELUXE\\Cat Master Deluxe.csproj": {}
+    "C:\\Users\\jjpen\\repos\\games\\Cat Master Deluxe\\Cat Master Deluxe.csproj": {}
   },
   "projects": {
-    "C:\\USERS\\JJPEN\\REPOS\\GAMES\\CAT MASTER DELUXE\\Cat Master Deluxe.csproj": {
+    "C:\\Users\\jjpen\\repos\\games\\Cat Master Deluxe\\Cat Master Deluxe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\USERS\\JJPEN\\REPOS\\GAMES\\CAT MASTER DELUXE\\Cat Master Deluxe.csproj",
+        "projectUniqueName": "C:\\Users\\jjpen\\repos\\games\\Cat Master Deluxe\\Cat Master Deluxe.csproj",
         "projectName": "Cat Master Deluxe",
-        "projectPath": "C:\\USERS\\JJPEN\\REPOS\\GAMES\\CAT MASTER DELUXE\\Cat Master Deluxe.csproj",
+        "projectPath": "C:\\Users\\jjpen\\repos\\games\\Cat Master Deluxe\\Cat Master Deluxe.csproj",
         "packagesPath": "C:\\Users\\jjpen\\.nuget\\packages\\",
-        "outputPath": "C:\\USERS\\JJPEN\\REPOS\\GAMES\\CAT MASTER DELUXE\\.mono\\temp\\obj\\",
+        "outputPath": "C:\\Users\\jjpen\\repos\\games\\Cat Master Deluxe\\.mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

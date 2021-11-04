@@ -1,0 +1,9 @@
+C:\USERS\JJPEN\REPOS\GAMES\CAT MASTER DELUXE\.mono\temp\obj\Debug\Cat Master Deluxe.GeneratedMSBuildEditorConfig.editorconfig
+C:\USERS\JJPEN\REPOS\GAMES\CAT MASTER DELUXE\.mono\temp\obj\Debug\Cat Master Deluxe.AssemblyInfoInputs.cache
+C:\USERS\JJPEN\REPOS\GAMES\CAT MASTER DELUXE\.mono\temp\obj\Debug\Cat Master Deluxe.AssemblyInfo.cs
+C:\USERS\JJPEN\REPOS\GAMES\CAT MASTER DELUXE\.mono\temp\obj\Debug\Cat Master Deluxe.csproj.CoreCompileInputs.cache
+C:\USERS\JJPEN\REPOS\GAMES\CAT MASTER DELUXE\.mono\temp\bin\Debug\Cat Master Deluxe.dll
+C:\USERS\JJPEN\REPOS\GAMES\CAT MASTER DELUXE\.mono\temp\bin\Debug\Cat Master Deluxe.pdb
+C:\USERS\JJPEN\REPOS\GAMES\CAT MASTER DELUXE\.mono\temp\obj\Debug\Cat Master Deluxe.dll
+C:\USERS\JJPEN\REPOS\GAMES\CAT MASTER DELUXE\.mono\temp\obj\Debug\Cat Master Deluxe.pdb
+C:\Users\jjpen\repos\games\Cat Master Deluxe\.mono\temp\obj\Debug\Cat Master Deluxe.csproj.AssemblyReference.cache
