@@ -14,6 +14,10 @@ config/name="Cat Master Deluxe"
 run/main_scene="res://Cat Master Deluxe/Level1.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+GameEvents="*res://autoloads/GameEvents.cs"
+
 [display]
 
 window/size/width=768
