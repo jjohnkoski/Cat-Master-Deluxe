@@ -43,3 +43,14 @@ animation = "idle"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2( 87.2991, 383.155 )
 shape = SubResource( 3 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 383.252, 250.316 )
+current = true
+drag_margin_h_enabled = true
+drag_margin_v_enabled = true
+drag_margin_left = 0.6
+drag_margin_top = 0.6
+drag_margin_right = 0.6
+drag_margin_bottom = 0.58
+editor_draw_drag_margin = true

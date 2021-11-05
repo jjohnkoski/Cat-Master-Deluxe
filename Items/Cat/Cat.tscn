@@ -1,0 +1,41 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://created_assets/cat2.png" type="Texture" id=1]
+[ext_resource path="res://created_assets/cat.png" type="Texture" id=2]
+[ext_resource path="res://created_assets/cat_pickup.png" type="Texture" id=3]
+[ext_resource path="res://Items/Cat/Cat.cs" type="Script" id=4]
+[ext_resource path="res://created_assets/mixkit-little-cat-attention-meow-86.wav" type="AudioStream" id=5]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 2 ), ExtResource( 1 ) ],
+"loop": true,
+"name": "purr",
+"speed": 2.0
+}, {
+"frames": [ ExtResource( 3 ) ],
+"loop": true,
+"name": "pickup",
+"speed": 5.0
+} ]
+
+[sub_resource type="CapsuleShape2D" id=2]
+
+[node name="Cat" type="Area2D"]
+script = ExtResource( 4 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( 304.156, 184.292 )
+frames = SubResource( 1 )
+animation = "purr"
+frame = 1
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 304.032, 187.878 )
+shape = SubResource( 2 )
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 5 )
+
+[connection signal="body_entered" from="." to="." method="_on_Cat_body_entered"]
+[connection signal="finished" from="AudioStreamPlayer2D" to="." method="_on_AudioStreamPlayer2D_finished"]

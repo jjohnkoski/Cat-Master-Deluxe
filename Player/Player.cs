@@ -7,6 +7,8 @@ public class Player : KinematicBody2D
     public int Speed = 100;
     [Export]
     public int Gravity = 2000;
+    [Export]
+    public int JumpSpeed = 550;
 
     private Vector2 _velocity = Vector2.Zero;
 
@@ -17,7 +19,7 @@ public class Player : KinematicBody2D
 
     public override void _Process(float delta)
     {
-        var sprite = GetNode<AnimatedSprite>("AnimatedSprite");
+        AnimatedSprite sprite = GetNode<AnimatedSprite>("AnimatedSprite");
         _velocity.x = 0;
 
         if (Input.IsActionPressed("ui_right"))
@@ -30,6 +32,12 @@ public class Player : KinematicBody2D
 		}
 
         _velocity.y += Gravity * delta;
+
+        if (Input.IsActionPressed("ui_up") && IsOnFloor())
+        {
+            _velocity.y = -JumpSpeed;
+        }
+
         _velocity = MoveAndSlide(_velocity, Vector2.Up);
 
         if (_velocity.x != 0)
@@ -39,7 +47,7 @@ public class Player : KinematicBody2D
             sprite.FlipH = _velocity.x < 0;
             sprite.Play("walk");
         }
-        else if (_velocity.y != 0)
+        else if (_velocity.y < 0)
         {
             sprite.Play("jump");
         }
